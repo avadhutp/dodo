@@ -1,0 +1,34 @@
+.nodeTeaser {
+	background: #fff;
+}
+.ntTitle {
+	padding: 11px 10px;
+	font-size: 1.8em;
+}
+.ntTitle a {
+	color: #e86452;
+}
+.ntMeta {
+	background: #0a999b url(images/ntDogear.png) right bottom no-repeat;
+	color: #fff;
+	float: left;
+	padding: 0 20px 0 10px;
+	margin: -2px 0 2px 0;
+}
+.ntMeta label {
+	display: inline;
+	font-weight: normal;
+}
+.ntContent {
+	padding: 6px 10px 40px 10px;
+}
+.ntReadMore {
+	background: url(images/hbSprite.png) -575px -524px no-repeat;
+	margin: -37px 0 20px 530px;
+	height: 47px;
+	width: 119px;
+	position: relative;
+}
+.nodeTeaser .sep {
+	margin: 0 5px;
+}

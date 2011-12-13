@@ -1,0 +1,16 @@
+name = Dodo
+description = Dodo blogo fixed-width 2-column theme.
+package = Core
+version = VERSION
+core = 7.x
+stylesheets[all][] = style.css
+stylesheets[print][] = print.css
+settings[dodo_width] = fixed
+scripts[] = dodo.js
+regions[footerLeft] = Footer left
+regions[footerCenter] = Footer center
+regions[footerRight] = Footer right
+regions[creditsLeft] = Credits (left)
+regions[creditsRight] = Credits (right)
+regions[rightSidebar] = Right sidebar
+regions[content] = Content
