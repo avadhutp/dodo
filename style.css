@@ -64,9 +64,16 @@ blockquote {
 	float: left;
 	position: absolute;
 	color: #fff;
-	font-size: 60px;
+	font-size: 55px;
 	text-shadow: 3px 3px #3BB0A3;
 	padding: 40px 0 0 10px;
+}
+.header .logo a{
+	color: #fff;
+}
+.header .logo a:hover {
+	text-decoration: none;
+	text-shadow: 3px 3px #ccc;
 }
 .header .pmContainer{
 	float: right;
