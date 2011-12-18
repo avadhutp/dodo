@@ -63,6 +63,9 @@ blockquote {
 .header .logo {
 	float: left;
 	position: absolute;
+	color: #fff;
+	font-size: 60px;
+	text-shadow: 3px 3px #3BB0A3;
 }
 .header .pmContainer{
 	float: right;

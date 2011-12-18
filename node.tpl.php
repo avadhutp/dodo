@@ -48,7 +48,8 @@
 <?php } else { ?>
 	<?php drupal_add_css(path_to_theme() . "/teaser.css"); ?>
 	<div class="nodeTeaser">
-		<h2 class="ntTitle"><?php print l($title,$node_url,array("attributes" => array("class" => "tk-adelle"))) ?></h2>
+		<?php //print_r($node); ?>
+		<h2 class="ntTitle"><?php print l($title,drupal_get_path_alias("node/$nid"),array("attributes" => array("class" => "tk-adelle"))) ?></h2>
 		<div class="ntMeta">
 			<label>Posted on: </label><?php print format_date($node->created,"custom","D, jS M Y") ?> 
 			<span class="sep">|</span> 
@@ -65,5 +66,5 @@
 			?>
 		</div>
 	</div>
-	<?php print l("<div class=\"ntReadMore\"></div>",$node_url,array("html" => true)) ?>
+	<?php print l("<div class=\"ntReadMore\"></div>",drupal_get_path_alias("node/$nid"),array("html" => true)) ?>
 <?php }

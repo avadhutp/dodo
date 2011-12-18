@@ -9,7 +9,7 @@ $snLinks[] = array( "data" => l("","http://avad.hu/t/rss.xml",array("attributes"
 	<div class="clearFix"></div>
 	<!--Header section-->
 	<div class="header">
-		<div class="logo"><img src="<?php print path_to_theme(); ?>/images/logo.png" /></div>
+		<div class="logo tk-adelle">avad.hu/t</div>
 		<div class="pmContainer">
 			<div class="pmLeft"></div>
 			<div class="primaryMenu"><?php print $primary_nav ?></div>
