@@ -125,6 +125,18 @@ blockquote {
 	padding: 5px 10px;
 	background: #bc3220;
 }
+
+/****Links in the node content****/
+.nodeContent a { 
+	color: #0a999b;
+	text-decoration: underline;
+}
+.nodeContent a:hover {
+	color: #ebf2f8;
+	background: #0a999b;
+	text-decoration: none;
+}
+
 /****Main content section****/
 .contentContainer {
 	float: left;
