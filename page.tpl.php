@@ -12,7 +12,11 @@ $snLinks[] = array( "data" => l("","http://avad.hu/t/rss.xml",array("attributes"
 		<div class="logo tk-adelle"><?php print l($site_name,"") ?></div>
 		<div class="pmContainer">
 			<div class="pmLeft"></div>
-			<div class="primaryMenu"><?php print $primary_nav ?></div>
+			<div class="primaryMenu">
+				<div class="pmContent">
+					<?php print $primary_nav ?>
+				</div>
+			</div>
 			<div class="pmRight"></div>
 		</div>
 	</div>

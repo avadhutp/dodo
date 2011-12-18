@@ -94,14 +94,14 @@ blockquote {
 .pmContainer .pmLeft {
 	background: url("images/hbSprite.png") no-repeat scroll -20px -95px transparent;
     height: 169px;
-    margin: -1px -316px 0 0;
+    margin: -1px -381px 0 0;
     width: 795px;
 }
 .header .primaryMenu ul, .header .primaryMenu ul li {
 	padding: 0;
 }
 .header .primaryMenu ul {
-	padding: 0 81px 0 60px;
+	padding: 0 81px 0 0;
 }
 .header .primaryMenu a{
 	color: #fff;
@@ -111,6 +111,11 @@ blockquote {
 .header .primaryMenu a:hover, .header .primaryMenu a.active {
 	background: #bc3220;
 }
+/****Primary navigation content****/
+.pmContent {
+	width: 474px;
+}
+
 /****Breadcrumb section****/
 .breadcrumbContainer {
 	height: 54px;
