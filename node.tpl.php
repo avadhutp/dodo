@@ -1,5 +1,9 @@
 <?php if(!$teaser) { ?>
 <?php
+	global $user;
+	if($user->uid) {
+		$nmExtras[] = array("label" => "Actions","content" => l("Edit","node/$nid/edit"));
+	}
 	$nmExtras[] = array("label" => "Tags","content" => str_replace('</div><div class="field-item','</div>, <div class="field-item',render($content['field_blog_tags'])));
 	$nmExtras[] = array("label" => "Discussion","content" => l(format_plural($comment_count,"1 comment","@count comments"),"",array("fragment" => "disqusWrapper" , "html" => true, "external" => true)));
 	$nmExtras[] = array("label" => "Share", "content" => "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-count=\"none\" data-via=\"avadhutp\">Tweet</a><script type=\"text/javascript\" src=\"//platform.twitter.com/widgets.js\"></script><iframe src=\"//www.facebook.com/plugins/like.php?href=$url&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=21\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:50px; height:21px;\" allowTransparency=\"true\"></iframe>");
