@@ -26,7 +26,7 @@ h1 a{
 	clear: both;
 }
 .wrapper {
-	width: 990px;
+	width: 965px;
 	margin: 0 auto;
 	/*border: solid 1px #000;*/
 }
@@ -92,10 +92,10 @@ blockquote {
 	width: 101px;
 }
 .pmContainer .pmLeft {
-	background: url("images/hbSprite.png") no-repeat scroll -20px -95px transparent;
+	background: url("images/hbSprite.png") no-repeat scroll -35px -95px transparent;
     height: 169px;
     margin: -1px -381px 0 0;
-    width: 795px;
+    width: 771px;
 }
 .header .primaryMenu ul, .header .primaryMenu ul li {
 	padding: 0;
